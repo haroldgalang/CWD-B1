@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="grey darken-4 white-text text-darken-3">
+
+    <div class="navbar-fixed">
+        <nav class="teal darken-2">
+            <a href="" class="sidenav-trigger show-on-large" data-target="slide-out"><i class="material-icons">menu</i></a>
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="" class="brand-logo">Wowl Inc</a>
+                </div>
+            </div>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">  
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="navbar-sidebar.html">About</a></li>
+                <li><a href="table-media.html">Contact Us</a></li>
+                <li><a href="" class="dropdown-trigger" data-target="dropdown1"><i class="material-icons">arrow_drop_down</i></a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Sidenav Structure -->
+    <ul id="slide-out" class="sidenav">
+        <>
+            <div class="user-view">
+                <div class="background">
+                    <img src="images/Nature.jpg" alt="">
+                </div>
+                <a href="" class="sidenav-close"><i class="material-icons right">arrow_back</i></a>
+                <a href=""><img src="images/CityLights.jpg" alt="" class="circle"></a>
+                <a href=""><span class="white-text name">Harold Galang</span></a>
+                <a href=""><span class="white-text email">testmic123@gmail.com</span></a>
+            </div>
+        </li>
+        <!-- Sidenav Content -->
+        <li><a href=""><i class="material-icons">cloud</i>First Link With Icon</a></li>
+        <li><a href="">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
+    
+    <!--Dropdown Structure  -->
+    <ul id="dropdown1" class="dropdown-content teal darken-2">
+        <li>
+            <a href="" class="white-text">One</a>
+        </li>
+        <li>
+            <a href="" class="white-text">Two</a>
+        </li>
+        <li>
+            <a href="" class="white-text">three</a>
+        </li>
+    </ul>
+    
+    <div class="container">
+        <h1 class="white-text">Creative Web Design</h1>
+
+        <div class="card-panel green lighten-2 white-text">
+            <h4>Name: Adrienne Volkman</h4>
+            <p>Address: 132 Corwin Causeway</p>
+            <blockquote>Blanditiis non soluta tempora nisi quis rerum. Corporis enim nobis officia qui animi harum. Laborum architecto optio rerum neque aliquid accusantium omnis consequatur. Dolorem ut fuga sint. Saepe officia ullam maxime earum non veniam delectus hic.</blockquote>
+        </div>
+
+        <div class="card-panel pink lighten-1 white-text">
+            <h4>Name: Kyle Deckow</h4>
+            <p>Address: 0722 Cronin Highway</p>
+            <blockquote>Blanditiis non soluta tempora nisi quis rerum. Corporis enim nobis officia qui animi harum. Laborum architecto optio rerum neque aliquid accusantium omnis consequatur. Dolorem ut fuga sint. Saepe officia ullam maxime earum non veniam delectus hic.</blockquote>
+        </div>
+
+        <div class="card-panel yellow lighten-1 white-text">
+            <h4>Name: Arnold Champlin DDS</h4>
+            <p>Address: 04273 Gusikowski View</p>
+            <blockquote>Blanditiis non soluta tempora nisi quis rerum. Corporis enim nobis officia qui animi harum. Laborum architecto optio rerum neque aliquid accusantium omnis consequatur. Dolorem ut fuga sint. Saepe officia ullam maxime earum non veniam delectus hic.</blockquote>
+        </div>
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+                $('.dropdown-trigger').dropdown();
+                $('.sidenav').sidenav();
+            });  
+    </script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <title>Grid - Materialize</title>
+</head>
+
+<body style="margin: 10px;">
+    
+    <div class="row">
+        <div class="container">
+            <div class="col s12">
+                <div class="container">
+                    <h1 class="red-text text-lighten-2">Grid</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col s11">
+                <div class="row">
+
+                    <div class="col s12">
+                        <div class="container">
+                            <p>We are using a standard 12 column fluid responsive grid system. The grid helps you layout your page in an ordered, easy fashion. </p>
+                        </div>
+                    </div>
+        
+                    <div class="col s12">
+                        <div class="container">
+                            <h3 class="red-text text-lighten-2">Container</h3>
+                            <p>The container class is not strictly part of the grid but is important in laying out content. It allows you to center your page content. The container class is set to ~70% of the window width. It helps you center and contain your page content. We use the container to contain our body content.</p>
+                        </div>
+                    </div>
+        
+                    <div class="col s12">
+                        <div class="container">
+                            <h5 class="grey-text text-darken-3">Demo</h5>
+                            <p>Try the button below to see what the page looks like without containers.</p>
+                            <button class="btn">TURN ON CONTAINERS</button>
+                            <br><br>
+                            <img src="images/OffContainer.PNG" alt="">
+                        </div>
+                    </div>
+        
+                    <div class="col s12"><br>
+                        <div class="container">
+                            <p>To add a container just put your content inside a &lt;div&gt; tag with a container class. Here's an example of how your page might be set up.</p>
+                            <br>
+                            <img src="images/Code1.PNG" alt="">
+                        </div>
+                    </div>
+        
+                    <div class="col s12">
+                        <div class="container">
+                            <h3 class="red-text text-lighten-2">Introduction</h3>
+                            <p>Take a look at this section to quickly understand how the grid works!</p>
+                            <h5 class="grey-text text-darken-3">12 Columns</h5>
+                            <p>Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have an equal width.</p>
+                            <div class="row">
+                                <div class="col s1 center">
+                                    <div id="box" class="deep-orange lighten-1 white-text center">
+                                        <h5 id="h4-thing">1</h5>
+                                    </div>
+                                </div>
+                                <div class="col s1 center">
+                                    <div id="box" class="deep-orange lighten-1 white-text center">
+                                        <h5 id="h4-thing">2</h5>
+                                    </div>
+                                </div>
+                                <div class="col s1 center">
+                                    <div id="box" class="deep-orange lighten-1 white-text center">
+                                        <h5 id="h4-thing">3</h5>
+                                    </div>
+                                </div>
+                                <div class="col s1 center">
+                                    <div id="box" class="deep-orange lighten-1 white-text center">
+                                        <h5 id="h4-thing">4</h5>
+                                    </div>
+                                </div>
+                                <div class="col s1 center">
+                                    <div id="box" class="deep-orange lighten-1 white-text center">
+                                        <h5 id="h4-thing">5</h5>
+                                    </div>
+                                </div>
+                                <div class="col s1 center">
+                                    <div id="box" class="deep-orange lighten-1 white-text center">
+                                        <h5 id="h4-thing">6</h5>
+                                    </div>
+                                </div>
+                                <div class="col s1 center">
+                                    <div id="box" class="deep-orange lighten-1 white-text center">
+                                        <h5 id="h4-thing">7</h5>
+                                    </div>
+                                </div>
+                                <div class="col s1 center">
+                                    <div id="box" class="deep-orange lighten-1 white-text center">
+                                        <h5 id="h4-thing">8</h5>
+                                    </div>
+                                </div>
+                                <div class="col s1 center">
+                                    <div id="box" class="deep-orange lighten-1 white-text center">
+                                        <h5 id="h4-thing">9</h5>
+                                    </div>
+                                </div>
+                                <div class="col s1 center">
+                                    <div id="box" class="deep-orange lighten-1 white-text center">
+                                        <h5 id="h4-thing">10</h5>
+                                    </div>
+                                </div>
+                                <div class="col s1 center">
+                                    <div id="box" class="deep-orange lighten-1 white-text center">
+                                        <h5 id="h4-thing">11</h5>
+                                    </div>
+                                </div>
+                                <div class="col s1 center">
+                                    <div id="box" class="deep-orange lighten-1 white-text center">
+                                        <h5 id="h4-thing">12</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>To get a feel of how the grid is used in HTML, take a look at the code below which will produce a similar result to the one above.</p>
+                            <img src="images/Code2.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s1">
+                <div class="container" style="margin: -10px; font-size: smaller; font-weight: 500;">
+                    <blockquote><h6>Container</h6></blockquote>
+                    <ul class="grey-text text-darken-1" style="margin: 25px;">
+                        <li><p>Introduction</p></li>
+                        <li><p>Offsets</p></li>
+                        <li><p>Push and Pull</p></li>
+                        <li><p>Creating Layouts</p></li>
+                        <li><p>Responsive Layouts</p></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidenav Structure -->
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+        <li class=""></li>
+        <li><div class="background center" style="padding:18px;"><img src="images/MaterializeLogo.PNG" alt=""></div></li>
+        <li><div class="row">
+            <div class="col s12 offset-6 center">
+                <a href="" class="dropdown-trigger grey-text" data-target="dropdown1" style="border: 1px solid grey; outline:none; padding: 10px;">1.0.0<i class="material-icons grey-text">arrow_drop_down</i></a>
+            </div>
+        </div>
+        </li>
+        <li><div class="row">
+            <div class="divider"></div>
+                <div class="col s10";">
+                    <input id="search" placeholder="search" type="text" class="materialize-textarea" style="border:none; outline:none;">
+                </div>
+                <div class="input-field col s2">
+                    <i class="material-icons right">search</i>
+                </div>
+            </div>
+            <div class="divider" style="position:relative; top:-22px;"></div>
+        </li>
+        <li><a href="">About</a></li>
+        <li><a href="">Getting Started</a></li>
+        <li><a href="">CSS</a></li>
+        <li><a href="">Components</a></li>
+        <li><a href="">JavaScript</a></li>
+        <li><a href="">Forms</a></li>
+        <li><a href="">Mobile</a></li>
+        <li><a href="">Showcase</a></li>
+    </ul>
+
+    <!--Dropdown Structure  -->
+    <ul id="dropdown1" class="dropdown-content grey-text">
+        <li>
+            <a href="" class="Active">1.0.0</a>
+        </li>
+        <li>
+            <a href="" class="">0.100.2</a>
+        </li>
+    </ul>
+
+
+
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+    
+    <script>
+        $(document).ready(function() {
+            $('.dropdown-trigger').dropdown();
+        });
+    </script>
+</body>
+</html>

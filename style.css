@@ -1,0 +1,32 @@
+body {
+    background: #eeeeee;
+}
+
+h2, h3, h4 {
+    font-weight: 300;
+    color: #e57373;
+}
+
+h1 {
+    font-weight: 320;
+    color: #e57373;
+}
+
+h5 {
+    font-weight: 400;
+    color: #e57373;
+}
+
+#box {
+	width:47px;
+	height:47px;
+}
+#h4-thing {
+    padding:10px;
+    font-weight:320;
+    color: #e57373;
+}
+
+p {
+    color: #424242;
+}
