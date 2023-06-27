@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <title>Modal</title>
+</head>
+<body>
+
+    <h1 class="center">Modals</h1>
+    <div class="divider"></div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m10">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, perspiciatis accusamus nisi autem sequi neque? Voluptates delectus sint laudantium necessitatibus eos iste reprehenderit tempore, tenetur voluptate consectetur cupiditate ipsam. Voluptate?</p>
+                <br>
+                <!-- Modal Trigger -->
+                <a href="#modal1" class="btn waves-effect waves-light modal-trigger">Modal<a/>
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <div class="col s12">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/Sunset.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12">
+                            <div class="container">
+                                <h4>Lorem ipsum dolor sit.</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt totam soluta consectetur fugiat nesciunt modi aliquam ab saepe at facilis quibusdam dicta suscipit, esse, assumenda debitis accusamus eius nisi? Molestiae?</p>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s10 m10">
+                <h2>Modals with Fixed Footer</h2>
+                <!-- modal trigger -->
+                <a href="#modal2" class="waves-effect waves-light btn modal-trigger">
+                    Modal with fixed footer
+                </a>
+                <!-- modal structure -->
+                <div id="modal2" class="modal modal-fixed-footer">
+                    <div class="modal-content">
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/Flower.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s6">
+                                <h3>Modal Header</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam impedit ipsa eligendi provident necessitatibus, sint aut esse ex neque, optio saepe expedita quas totam veritatis perferendis excepturi. Amet, voluptas nam?</p>
+                            </div>
+                            <div class="col s6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/Breakfast.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12">
+                                <h3 class="center">Pines</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum provident, dolorem eligendi sit assumenda laudantium aliquid accusamus fugit sequi inventore! Unde illo blanditiis tenetur ea amet nesciunt fuga. Laborum.</p>
+                                <div class="col s6">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="images/FoggyPines.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s6">
+                                    <h3>Utopia</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam eaque debitis temporibus a totam modi molestias voluptas quibusdam iusto aliquam, accusamus fuga recusandae fugiat. Beatae dolore repellendus ratione itaque?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+        $('.modal').modal();
+    });
+    </script>
+</body>
+</html>
